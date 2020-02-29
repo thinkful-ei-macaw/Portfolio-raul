@@ -18,11 +18,6 @@ main {
   font-family: 'Lato', ;
 }
 
-header {
-  background: url("./Hero.jpg") center 0; 
-}
-
-
 /* //////////////EVERYTHING NAVBAR ////////////// */
 
 .navbar {
@@ -79,6 +74,11 @@ header {
 }
 
 /* //////////    TYPOGRAPHY   //////////// */
+ h1 {
+   font-size: 36px;
+   font-family: 'Open Sans', ;
+   color: rgba(235, 197, 143, 0.911);
+ }
 
 
 
