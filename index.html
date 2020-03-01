@@ -21,45 +21,46 @@
     </a>
     <div class="navbar-links">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href=#>Bio</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
-  <main role="main">
+  <main role="main" id="main">
     <header role="banner">
-      <h1>My name is Raul, I'm an aspiring Fullstack Web-Developer, Always striving for succes.</h1>
+      <h1>Hi there! My name is Raul<br> I'm an aspiring Fullstack Web-Developer<br>Always striving for succes.</h1>
     </header>
 
-
-    <section id="contact-info">
-      <h2>contact info</h2>
-      <p>Gmail:<a href="mailto:SyntaxStream@gmail.com" target="_blank"> SyntaxStream</a></p>
-      <p>Github:<a href="https://github.com/Vicious27" target="_blank"> Vicious27</a></p>
-      <p>LinkedIn:<a href="https://www.linkedin.com/in/raul-garcia-b820661a3/" target="_blank"> Raul G.</a></p>
+    <section id="contact">
+      <h2>Contact me!</h2>
+      <p>Gmail:<a href="mailto:SyntaxStream@gmail.com" target="_blank"> SyntaxStream</a><br>
+        Github:<a href="https://github.com/Vicious27" target="_blank"> Vicious27</a><br>
+        LinkedIn:<a href="https://www.linkedin.com/in/raul-garcia-b820661a3/" target="_blank"> Raul G.</a></p>
     </section>
 
-    <section class="bio">
+
+    <section id="bio" class="bio">
       <article>
-        <img src="./Hero.jpg" alt="a picture of Raul in a field, with a hoodie on."></img>
-        <h2> I’m currently a full time student at<a href="https://www.thinkful.com/" target="_blank"> Thinkful</a>
-          Using HTML, CSS, and javascript I write code that makes your screen change
+        <img src="./Hero.jpg" id="myPic" alt="a picture of Raul in a field, with a hoodie on."></img>
+        <h2> I’m currently a full time student at<a href="https://www.thinkful.com/" target="_blank"> Thinkful</a></h2>
+        <h2>Using HTML, CSS, and javascript I write code that makes your screen change
           appearance & behaviour. I’ve always been interested in what’s happening inside the computer,
-          and how it all works together. When I'm not coding I enjoy playing guitar with others or skateboaording with a group of friends. </h2>
+          and how it all works together. When I'm not coding I enjoy playing guitar with others or skateboarding with a group of friends.</2>
       </article>
     </section>
 
-    <section class="project1">
+    <section id="projects" class="project1">
+      <h2>|| Quiz App Project ||</h2>
       <img src="./Quiz-app-project-picture.png" alt="picture of quiz app project"></img>
-      <h3>|| Quiz App ||</h3>
+      <h3>|| Description||</h3>
       <p> It's a take on cards against humanity, Sarcasticly rude & funny question game
         based on random, real facts that you wouldn't believe!</p>
       <p>javascript,html,css,jQuery</p>
       <p></p>
-      <a href="test@gmail.com" target="_blank">Live</a><span> || </span>
-      <a href="test@gmail.com" target="_blank">Repo</a>
+      <a href="https://thinkful-ei-macaw.github.io/quiz-app-rm/" target="_blank">Live</a><span> || </span>
+      <a href="https://github.com/thinkful-ei-macaw/quiz-app-rm" target="_blank">Repo</a>
     </section>
 
     <!-- <<<<<<PLACEHOLDER FOR OTHER PROJECTS>>> -->
@@ -81,7 +82,7 @@
     </section> -->
   </main>
 
-  <footer role="content-info">&copy;<a href="testgmail.com" target="_blank">Raul G. 2020</a></footer>
+  <footer role="content-info">&copy;<a href="mailto:SyntaxStream@gmail.com" target="_blank">Raul G. 2020</a></footer>
 
   <script src="script.js"></script>
 </body>
