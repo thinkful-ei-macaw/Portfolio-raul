@@ -29,8 +29,9 @@ main {
 
 .nav-logo {
   font-size: 1.2rem;
+  font-family: 'Trade Winds', cursive;
   margin: .5rem;
-  color: #91B7D9 ;
+  color: rgba(163, 66, 158, 0.918);
 }
 
 .navbar-links ul {
@@ -120,7 +121,7 @@ h1 {
 
   a:visited{
    color: rgba(220, 20, 60, 0.938);
-   font-family: 'roboto',;
+   font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
  a:hover {
@@ -165,22 +166,27 @@ h1 {
   .navbar-links.active {
     display: flex;
   }
-h1 {
+
+ h1 {
   text-align: center;
-}
+  font-size: 30px;
+  }
 
 #contact {
   text-align: center;
- }
- 
+  }
+
  .bio article {
-   font-size: 16px
- }
+   font-size: 16px;
+   padding: 10px;
+  }
+
  .bio img {
   margin-top: 1em;
   width: 100%;
   height: 100%;
- }
+  }
+
  section.project1 {
   border: solid black 2px;
   color: rgb(34, 138, 187);
@@ -188,8 +194,6 @@ h1 {
   background-color: rgba(0, 0, 0, 0.89);
  }
 }
-
-
 
 
 /* ///////////    REGULAR CSS     //////////////// */
@@ -211,6 +215,7 @@ header {
   max-width: 100%;
   line-height: 1.5;
   font-size: 20px;
+  font-family: 'Open Sans', ;
 }
 
 .bio p {
@@ -225,6 +230,7 @@ header {
 
 .bio a:hover {
   font-size: 32px;
+  text-decoration: underline;
 }
 
 .project1 img {
