@@ -4,7 +4,7 @@
 
 body {
   font-size: 20px;
-  color: black;
+  color: rgb(12, 11, 11);
   line-height: 1.2;
   margin: 0;
   padding: 0;
@@ -13,6 +13,7 @@ body {
 
 main {
   background-image: url('./Background.jpg');
+  
   width: 100%;
   height: 100%;
 }
@@ -210,6 +211,20 @@ header {
   max-width: 100%;
   line-height: 1.5;
   font-size: 20px;
+}
+
+.bio p {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.bio a:link {
+  color: rgb(12, 11, 11);
+  text-decoration: none;
+}
+
+.bio a:hover {
+  font-size: 32px;
 }
 
 .project1 img {
